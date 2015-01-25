@@ -1,0 +1,22 @@
+{
+    "name": "Nounoute/a2_php_oop_gr2",
+    "require": {
+        "cocur/slugify": "1.0",
+        "doctrine/dbal":"~2.5",
+        "doctrine/orm":"~2.3",
+        "symfony/console":"~2.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cindy MOUTOU",
+            "email": "cindymoutou13@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "cindymt\\":"src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
