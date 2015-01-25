@@ -11,7 +11,7 @@ if ($_SESSION ==  TRUE){
     require 'pokemon.php';
 
 }else{
-    echo '<div id="index">Merci de vous connecter</div>';
+    echo '<h3>Merci de vous connecter</h3>';
     require 'views/connexion.php';
 }
 
